@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Enter Coordinates | ITA Computations Web App</title>
+  <meta name="description" content="Use the Enter Coordinates screen in ITA Computations to paste or upload data for geospatial analysis. Supported input formats include CSV, manual entry, and dynamic row addition.">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #FFF9F0;
+      margin: 0;
+      padding: 0;
+      color: #000;
+    }
+
+    header {
+      background-color: #7C2929;
+      color: white;
+      padding: 5px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      font-weight: bold;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.5rem;
+      margin: 0;
+    }
+
+    header * {
+      line-height: 1.2;
+    }
+
+    nav {
+      background-color: #E0B881;
+      text-align: center;
+      padding: 10px;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #7C2929;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 20px;
+    }
+
+    .card {
+      background-color: white;
+      border: 2px solid #E0B881;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #7C2929;
+      margin-top: 0;
+    }
+
+    .btn-launch {
+      display: inline-block;
+      background-color: #7C2929;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .btn-launch:hover {
+      background-color: #5a1f1f;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Enter Coordinates</h1>
+    <p>The Heart of ITA Computations</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="enter_coordinates.html">Enter Coordinates</a>
+    <a href="area_computation.html">Area Computation</a>
+    <a href="bearing_distance.html">Bearing & Distance</a>
+    <a href="bnd_from_coordinates.html">B&D Sheet</a>
+    <a href="plan_data.html">Plan Data</a>
+  </nav>
+
+  <div class="container">
+
+    <div class="card">
+      <h2>Overview</h2>
+      <p>Welcome to the main screen of ITA Computations, the core interface where your surveying and mapping journey begins. This page serves as the central hub, enabling you to input coordinate data using a variety of flexible methods tailored to the modern land surveyor’s workflow.</p>
+      <p>Gone are the days when surveyors manually wrote every coordinate point, computed each bearing and distance by hand, and struggled to maintain legible field books and computations. These traditional methods, though effective at their time, were tedious, time-consuming, and prone to human error. ITA Computations revolutionizes this process by digitizing the entire experience.</p>
+    </div>
+
+    <div class="card">
+      <h2>Features</h2>
+      <p>At the top, you’ll notice the social media icons that connect you to our community on Facebook, Twitter, Instagram, LinkedIn, GitHub, and YouTube. You can follow us for updates, tutorials, and tips.</p>
+      <p>Below, users can enter the number of coordinate rows needed and click “Add Rows” to instantly generate editable fields. Alternatively, for quicker input, users can paste formatted coordinates (X, Y, Beacon) or import a CSV file using the intuitive “Import CSV (N, E, L)” button.</p>
+    </div>
+
+    <div class="card">
+      <h2>Workflow</h2>
+      <p>After data is loaded, the “Save and Calculate” button processes the input to dynamically generate computation sheets for bearing & distance, area, beacon index, and plan data. A “Clear Rows” button is available to start afresh.</p>
+      <p>The bottom navigation bar gives instant access to all computation modules. Additionally, the top-right corner menu lets you switch themes and access download links for Windows, Android, and iOS versions.</p>
+    </div>
+
+    <div class="card">
+      <h2>Conclusion</h2>
+      <p>This page encapsulates the transformation from manual, paper-based workflows to a smart, error-minimizing, and time-saving digital tool. It’s more than a utility—it’s a tribute to how far field computations have come.</p>
+    </div>
+
+    <div class="card" style="text-align:center;">
+      <a href="area_computation.html" class="btn-launch">🚀 Launch App</a>
+    </div>
+
+  </div>
+
+</body>
+</html>

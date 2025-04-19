@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Plan Data Sheet | ITA Computations Web App</title>
+  <meta name="description" content="The Plan Data Sheet consolidates bearings, distances, areas, and remarks into a submission-ready table for cadastral plan approvals.">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #FFF9F0;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    header {
+      background-color: #7C2929;
+      color: white;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.4rem;
+      font-weight: bold;
+      margin: 10px 0;
+      line-height: 1.3;
+    }
+
+    header p {
+      font-size: 1.5rem;
+      margin: 0;
+    }
+
+    nav {
+      background-color: #E0B881;
+      text-align: center;
+      padding: 10px;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #7C2929;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 20px;
+    }
+
+    .card {
+      background-color: white;
+      border: 2px solid #E0B881;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #7C2929;
+    }
+
+    .btn-launch {
+      display: inline-block;
+      background-color: #7C2929;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .btn-launch:hover {
+      background-color: #5a1f1f;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Plan Data Sheet</h1>
+    <p>Unified Sheet for Cadastral Submission & Internal Checks</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="enter_coordinates.html">Enter Coordinates</a>
+    <a href="area_computation.html">Area Computation</a>
+    <a href="bearing_distance.html">Bearing & Distance</a>
+    <a href="bnd_from_coordinates.html">B&D Sheet</a>
+    <a href="plan_data.html">Plan Data</a>
+  </nav>
+
+  <div class="container">
+
+    <div class="card">
+      <h2>Final Submission Format</h2>
+      <p>The Plan Data Sheet compiles bearings, distances, and beacon labels into one table formatted specifically for submission to the Lands Commission. It removes the need to copy from multiple sheets.</p>
+    </div>
+
+    <div class="card">
+      <h2>Key Columns</h2>
+      <ul>
+        <li><strong>From Point & To Point</strong></li>
+        <li><strong>Bearing</strong> (DMS)</li>
+        <li><strong>Distance</strong> (meters)</li>
+        <li><strong>Remarks</strong> (Area, Notes)</li>
+      </ul>
+      <p>Each entry is structured to match regional plan submission layouts in Ghana, ensuring faster approvals and fewer corrections.</p>
+    </div>
+
+    <div class="card">
+      <h2>Multi-Use Benefits</h2>
+      <p>Beyond approval, this format is ideal for internal verification, engineering layout preparation, and contract documentation. It can be printed, signed, or exported as a PDF with no extra formatting required.</p>
+    </div>
+
+    <div class="card">
+      <h2>Instant Access to Computations</h2>
+      <p>This page is linked directly to results from earlier modules: coordinates, bearings, and area values. With a single data entry, the Plan Data Sheet is automatically updated — no manual copying required.</p>
+    </div>
+
+    <div class="card" style="text-align:center;">
+      <a href="https://itasofts.github.io/ita-computations-webapp/" class="btn-launch" target="_blank">🚀 Launch Full App</a>
+    </div>
+
+  </div>
+
+</body>
+</html>

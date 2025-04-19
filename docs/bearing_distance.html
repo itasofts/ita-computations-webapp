@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bearing and Distance | ITA Computations Web App</title>
+  <meta name="description" content="Learn how the Bearing and Distance section of ITA Computations helps surveyors calculate precise distances and angles between points with ease.">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #FFF9F0;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    header {
+      background-color: #7C2929;
+      color: white;
+      padding: 5px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.2rem;
+      font-weight: bold;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1rem;
+      margin: 0;
+    }
+
+    header * {
+      line-height: 1.2;
+    }
+
+    nav {
+      background-color: #E0B881;
+      text-align: center;
+      padding: 10px;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #7C2929;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 20px;
+    }
+
+    .card {
+      background-color: white;
+      border: 2px solid #E0B881;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #7C2929;
+      font-size: 1.2rem;
+      margin-top: 0;
+    }
+
+    .btn-launch {
+      display: inline-block;
+      background-color: #7C2929;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .btn-launch:hover {
+      background-color: #5a1f1f;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Bearing & Distance Computation</h1>
+    <p>Calculate Survey Measurements with Precision</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="enter_coordinates.html">Enter Coordinates</a>
+    <a href="area_computation.html">Area Computation</a>
+    <a href="bearing_distance.html">Bearing & Distance</a>
+    <a href="bnd_from_coordinates.html">B&D Sheet</a>
+    <a href="plan_data.html">Plan Data</a>
+  </nav>
+
+  <div class="container">
+    <div class="card">
+      <h2>Overview</h2>
+      <p>The Bearing and Distance page transforms entered coordinates into accurate measurements. The tool calculates both the angle (bearing) and the linear distance between each pair of points, which is essential for land boundary definitions, traverse computations, and legal documentation.</p>
+    </div>
+
+    <div class="card">
+      <h2>Key Features</h2>
+      <ul>
+        <li><strong>Real-Time Computation:</strong> Instantly generates bearings in quadrant format (e.g., N45°E) and distances in meters or feet.</li>
+        <li><strong>Clear Output:</strong> Results are neatly arranged in tables for printing or saving to PDF.</li>
+        <li><strong>Reversible Format:</strong> Supports reversing directions to match survey diagrams.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Common Use Cases</h2>
+      <p>Surveyors use this tool to:</p>
+      <ul>
+        <li>Generate legal boundary descriptions</li>
+        <li>Compare ground measurements with plan data</li>
+        <li>Prepare traverses for area calculations</li>
+        <li>Validate field measurements with digital output</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Practical Advantage</h2>
+      <p>This page replaces manual calculations from calculators or spreadsheets. By using ITA Computations, users minimize errors and maximize speed, while maintaining documentation that's ready for land commission approval.</p>
+    </div>
+
+    <div class="card" style="text-align:center;">
+      <a href="bnd_from_coordinates.html" class="btn-launch">🚀 Launch App</a>
+    </div>
+  </div>
+
+</body>
+</html>
