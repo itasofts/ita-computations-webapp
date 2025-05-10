@@ -69,20 +69,46 @@
       color: #7C2929;
     }
 
-    .btn-launch {
-      display: inline-block;
-      background-color: #7C2929;
-      color: white;
-      padding: 10px 20px;
-      text-decoration: none;
-      border-radius: 5px;
-      font-weight: bold;
-      transition: background 0.3s ease;
-    }
+   /* Primary Button (Tutorial) */
+.btn-launch {
+  display: inline-block;
+  background-color: #7C2929;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+  width: 250px; /* Fixed width for alignment */
+  text-align: center;
+}
 
-    .btn-launch:hover {
-      background-color: #5a1f1f;
-    }
+/* Secondary Button (Skip) */
+.btn-skip {
+  display: inline-block;
+  padding: 10px 25px;
+  background: transparent;
+  color: #7C2929;
+  border: 2px solid #7C2929;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  width: 250px; /* Matches primary button */
+  text-align: center;
+}
+
+/* Hover States */
+.btn-launch:hover {
+  background-color: #5a1f1f;
+}
+
+.btn-skip:hover {
+  background-color: #f5f5f5;
+  border-color: #5a1f1f;
+  color: #5a1f1f;
+}
   </style>
 </head>
 <body>
@@ -133,6 +159,15 @@
       <a href="plan_data.html" class="btn-launch">🚀 Launch Next: Plan Data Summary</a>
     </div>
 
+ <div class="card">
+  <div class="btn-vertical-group">
+    <a href="plan_data.html" class="btn-launch">🚀Launch Next: B&D Sheet</a>
+    <a href="https://life2allsofts.github.io/ita-computations/" class="btn-skip">⚡ Skip to App (No Tutorial)</a>
+  </div>
+</div>
+
+
+    
   </div>
 
 </body>
