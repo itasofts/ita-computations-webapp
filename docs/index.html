@@ -68,33 +68,48 @@
       color: #7C2929;
     }
 
-    .btn-launch {
-      display: inline-block;
-      background-color: #7C2929;
-      color: white;
-      padding: 12px 25px;
-      text-decoration: none;
-      border-radius: 5px;
-      font-weight: bold;
-      font-size: 1rem;
-      transition: background 0.3s ease;
-    }
+   /* Button Container */
+.btn-vertical-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px; /* Space between buttons */
+  margin: 15px 0;
+}
 
-    .btn-launch:hover {
-      background-color: #5a1f1f;
-    }
-
-    .btn-skip {
+/* Primary Button (Tutorial) */
+.btn-launch {
   display: inline-block;
-  padding: 10px 20px;
+  background-color: #7C2929;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+  width: 250px; /* Fixed width for alignment */
+  text-align: center;
+}
+
+/* Secondary Button (Skip) */
+.btn-skip {
+  display: inline-block;
+  padding: 10px 25px;
   background: transparent;
   color: #7C2929;
   border: 2px solid #7C2929;
   border-radius: 5px;
   font-weight: bold;
   text-decoration: none;
-  margin: 5px;
   transition: all 0.3s ease;
+  width: 250px; /* Matches primary button */
+  text-align: center;
+}
+
+/* Hover States */
+.btn-launch:hover {
+  background-color: #5a1f1f;
 }
 
 .btn-skip:hover {
@@ -160,17 +175,12 @@
       </ul>
     </div>
 
-   <div class="card btn-container">
-  <a href="enter_coordinates.html" class="btn-launch">🚀 Start with Coordinates Tutorial</a>
-  <div>
-  <a href="https://life2allsofts.github.io/ita-computations/" class="btn-skip">⚡ Skip to App</a>
-</div>
+  <div class="card">
+  <div class="btn-vertical-group">
+    <a href="enter_coordinates.html" class="btn-launch">🚀 Start with Coordinates Tutorial</a>
+    <a href="https://life2allsofts.github.io/ita-computations/" class="btn-skip">⚡ Skip to App (No Tutorial)</a>
   </div>
 </div>
-    </div>
-
-  </div>
-
   <footer>
     <p>© 2025 ITA Computations | <a href="https://life2allsofts.github.io/privacy-policy.html">Privacy Policy</a> | <a href="https://life2allsofts.github.io/terms-of-service.html">Terms</a></p>
   </footer>
